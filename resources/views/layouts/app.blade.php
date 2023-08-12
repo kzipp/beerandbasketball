@@ -14,6 +14,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 
+        {{-- favicon /images/favicon.ico --}}
+        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
