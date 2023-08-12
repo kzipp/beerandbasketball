@@ -2,7 +2,7 @@
 
 ![Beer and Basketball Logo](/public/images/screenshot.png)
 
-A dynamic and interactive web application showcasing the exciting blend of beer culture and basketball passion. Built with Laravel 8, this portfolio piece demonstrates the integration of models, migrations, SQLite, and Breeze authentication to create a seamless user experience. Explore the world of beer and basketball like never before!
+A dynamic and interactive web application showcasing the exciting blend of beer culture and basketball passion. Built with Laravel 10, this website demonstrates the integration of models, migrations, SQLite, and Breeze authentication to create a seamless user experience. Explore the world of beer and basketball like never before!
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ A dynamic and interactive web application showcasing the exciting blend of beer 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -57,10 +56,6 @@ A dynamic and interactive web application showcasing the exciting blend of beer 
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
