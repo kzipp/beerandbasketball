@@ -1,4 +1,4 @@
-# Beer and Basketball Portfolio Piece
+# Beer and Basketball
 
 ![Beer and Basketball Logo](/public/images/screenshot.png)
 
@@ -37,13 +37,13 @@ A dynamic and interactive web application showcasing the exciting blend of beer 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/beerandbasketball.git`
+1. Clone the repository: `git clone https://github.com/kzipp/beerandbasketball.git`
 2. Navigate to the project directory: `cd beerandbasketball`
 3. Install Composer dependencies: `composer install`
 4. Install NPM packages: `npm install`
 5. Rename `.env.example` to `.env` and configure your environment settings, including database connection.
 6. Generate application key: `php artisan key:generate`
-7. Migrate the database: `php artisan migrate`
+7. Migrate the database: `php artisan migrate --seed`
 8. Run the development server: `php artisan serve`
 
 ## Usage
