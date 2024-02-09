@@ -49,7 +49,7 @@
                             🏀
                             <strong
                                 class="text-lg font-bold tracking-tighter text-white transition duration-500 ease-in-out transform tracking-relaxed ">
-                                Beer & Basketball
+                                Beer &&&& Basketball
                             </strong>
                         </div>
                     </div>
