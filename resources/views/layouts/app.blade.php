@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name') }}</title>
+    <title>Beer & Basketball</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -49,7 +49,7 @@
                             🏀
                             <strong
                                 class="text-lg font-bold tracking-tighter text-white transition duration-500 ease-in-out transform tracking-relaxed ">
-                                Beer &&&& Basketball
+                                Beer & Basketball
                             </strong>
                         </div>
                     </div>
