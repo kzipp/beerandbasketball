@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -19,7 +19,18 @@
 
     {{-- favicon /images/favicon.ico --}}
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80YC8PZ5LD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80YC8PZ5LD');
+    </script>
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -34,7 +45,7 @@
                 <a href="./" class="text-lg font-semibold focus:outline-none focus:shadow-outline">
                     <div
                         class="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline">
-                        <div class="inline-flex items-center">
+                        <div class="inline-flex items-center ">
                             🏀
                             <strong
                                 class="text-lg font-bold tracking-tighter text-white transition duration-500 ease-in-out transform tracking-relaxed ">
@@ -99,20 +110,20 @@
 
     <footer class="text-blueGray-600 body-font bg-primary">
         <div
-            class="flex flex-col w-full px-4 py-4 mx-auto  bg-gray-2 bg-opacity-80 border-gray-2 md:items-center md:justify-between md:flex-row md:px-6 lg:px-32">
-            <a href="https://www.wickedtemplates.com/"
-                class="flex items-center justify-center font-medium text-blueGray-900 title-font md:justify-start">
-                <div class="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline">
-                    <div class="inline-flex items-center">
-                        🏀
-                        <strong
-                            class="text-lg font-bold tracking-tighter text-white transition duration-500 ease-in-out transform tracking-relaxed ">
-                            Beer & Basketball
-                        </strong>
-                    </div>
+            class="flex flex-col w-full px justify-center-4 py-4 mx-auto  bg-gray-2 bg-opacity-80 border-gray-2 md:items-center md:justify-between md:flex-row md:px-6 lg:px-32">
+
+            <div
+                class="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline text-center">
+                <div class="inline-flex items-center">
+                    🏀
+                    <strong
+                        class="text-lg font-bold tracking-tighter text-white transition duration-500 ease-in-out transform tracking-relaxed ">
+                        Beer & Basketball
+                    </strong>
                 </div>
-            </a>
-            <p class="mt-4 text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-blueGray-200 sm:py-2 sm:mt-0">
+            </div>
+            <p
+                class="mt-4 text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-blueGray-200 sm:py-2 sm:mt-0 text-center">
                 © {{ date('Y') }}
                 <a href="https://www.kylezipp.com" class="ml-1 text-blueGray-600 hover:text-blue-500"
                     rel="noopener noreferrer" target="_blank">Kyle Zipp</a>
@@ -136,8 +147,7 @@
                 <a class="ml-3 text-white">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                        <rect width="20" height="20" x="2" y="2" rx="5"
-                            ry="5"></rect>
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                     </svg>
                 </a>
